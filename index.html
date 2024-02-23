@@ -34,7 +34,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = "2607658731";
+    var serviceWorkerVersion = "3738198537";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -55,5 +55,12 @@
       });
     });
   </script>
+  <script defer src="main.dart.js"></script>
+  <script>
+       function getColorResult(){
+            var result= android.getColorResult();
+            return result;
+      }
+</script>
 </body>
 </html>
